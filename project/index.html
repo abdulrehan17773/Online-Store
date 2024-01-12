@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Noting</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Slider-img.png" class="d-md-block d-none w-100 pic-height" alt="...">
+                <img src="crop1.png" class="d-block d-md-none w-100 pic-height2" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Slider-img.png" class="d-md-block d-none w-100 pic-height" alt="...">
+                <img src="crop1.png" class="d-block d-md-none w-100 pic-height2" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid my-2" id="nav">
+        <div class="row">
+            <div class="col-xl-6 col-md-8 col-lg-7 offset-xl-4 offset-lg-3 offset-md-2">
+                <nav class="navbar navbar-expand-md">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a href="#"><i class="fas fa-shopping-cart text-light d-block d-md-none"></i></a>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                            aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item mx-lg-2 mx-md-1">
+                                        <a  class="nav-link text-light underline" aria-current="page"
+                                            href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item mx-lg-2 mx-md-1 " id="pages">
+                                        <a  class="nav-link text-light underline " href="#">Pages</a>
+                                    </li>
+                                    <li class="nav-item mx-lg-2 mx-md-1 " id="shop">
+                                        <a class="nav-link text-light underline " href="#">Shop</a>
+                                    </li>
+                                    <li class="nav-item mx-lg-2 mx-md-1 " id="blog">
+                                        <a class="nav-link text-light underline " href="#">Blog</a>
+                                    </li>
+                                    <li class="nav-item mx-lg-2 mx-md-1 ">
+                                        <a class="nav-link text-light underline " href="#">Contact</a>
+                                    </li>
+                                    <li class="nav-item dropdown mx-lg-2 mx-md-1">
+                                        <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Menu
+                                        </a>
+                                        <ul class="dropdown-menu bg-light">
+                                            <li><a class="dropdown-item text-dark" href="#">Men's Fashion</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item text-dark" href="#">Women's Fashion</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item mx-md-2 mx-lg-3 mt-2 d-md-block d-none">
+                                        <a href="#"><i class="fas fa-shopping-cart text-light"></i></a>
+                                    </li>
+                                    <li class="nav-item mx-md-2 mx-lg-3 mt-2 d-block d-md-none">
+                                        <input class="form-control p-0 px-1" type="search" placeholder="Search..."
+                                            aria-label="Search">
+                                    </li>
+                                    <li class="nav-item mx-md-2 mx-lg-3 mt-2" id="searchBar">
+                                        <input class="form-control p-0 px-1" type="search" placeholder="Search..."
+                                            aria-label="Search">
+                                    </li>
+                                    <li class="nav-item mx-md-2 mx-lg-3 mt-2 d-md-block d-none" id="searchIcon">
+                                        <i class="fas fa-search text-light"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 offset-md-2 offset-sm-1 mt-5">
+                <p class="text-light mt-5"> SALE</p>
+            </div>
+            <div class="col-sm-8 offset-md-2 offset-sm-1">
+                <h1 class="text-light">STOKETAKE SALE</h1>
+            </div>
+            <div class="col-sm-8 offset-md-2 offset-sm-1">
+                <h1 class="text-light">UPTO 75% OFF</h1>
+            </div>
+            <div class="col-sm-8 offset-md-2 offset-sm-1 mb-5">
+                <a href="#" class=" text-light " id="color">
+                    <p>SHOP NOW <img src="right-arrow.png" alt=""></p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1 col-2 p-sm-0 px-3 offset-sm-1 p-0 d-md-none d-block">
+                <button id="pre2" class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+            </div>
+            <div class="col-4  d-md-none d-block">
+                <button id="next2" class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-xl-8 col-md-9 col-sm-10 col-11">
+                <div class="row" id="topborder">
+                    <div class="col-xl-3 col-sm-5 offset-md-3 offset-sm-2 my-sm-5 my-2 p-sm-0 p-5">
+                        <h6 class="small"><strong>Free Shipping</strong></h6>
+                        <p id="para" class="small"> <small>Fat new smallness few supposing</small></p>
+                    </div>
+                    <div class="col-xl-3 col-sm-5 col-md-4 my-5 p-0 d-sm-block d-none">
+                        <h6 class="small"><strong>99% Satisfied Customer</strong></h6>
+                        <p id="para" class="small"><small>Fat new smallness few supposing</small></p>
+                    </div>
+                    <div class="col-3 my-5 p-0 d-xl-block d-none">
+                        <h6 class="small"><strong>Originality Guaranteed</strong></h6>
+                        <p id="para" class="small"><small>Fat new smallness few supposing</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-1">
+                <div class="row m-0">
+                    <div class="col p-0 d-md-block d-none">
+                        <button id="pre" class="carousel-control-prev " type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                    </div>
+                    <div class="col px-xl-5 px-0 d-md-block d-none">
+                        <button id="next" class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid my-5 ">
+        <div class="row">
+            <div class="col-sm-9 col-lg-8 col-md-10 offset-lg-2 offset-sm-1">
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="card text-bg-dark ">
+                            <img style="min-height: 200px;" src="men-coll.png" class="card-img" alt="...">
+                            <div
+                                class=" card-img-overlay my-xl-5 my-5 my-md-2 mx-md-0 p-md-2 p-lg-auto  mx-5 my-lg-3 mx-xl-5 mx-lg-3   text-end">
+                                <h3 class="card-title text-dark">Men's Casual</h3>
+                                <h3 class="card-title text-dark">Fashion Style</h3>
+                                <a href="#" class="hower text-black my-3">
+                                    <p class="card-text "><small><b>VIEW ALL</b><img style="filter: invert(100%);"
+                                                src="right-arrow.png" alt=""></small></p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md mt-md-0 mt-4">
+                        <div class="card text-bg-dark">
+                            <img style="min-height: 200px;" src="women-coll.png" class="card-img" alt="...">
+                            <div
+                                class=" card-img-overlay my-xl-5 my-5 my-md-2 mx-md-0 p-md-2 p-lg-auto mx-5 my-lg-3 mx-xl-5 mx-lg-3 mx-0  text-md-start ">
+                                <h4 class="card-title text-dark mt-md-0  mr-md-0 mr-sm-5 h4-sm h5">Women's Casual</h4>
+                                <h3 class="card-title text-dark ">Fashion Style</h3>
+                                <a href="#" class="hower text-black my-3 mx-2">
+                                    <p class="card-text"><small><b>VIEW ALL</b><img style="filter: invert(100%);"
+                                                src="right-arrow.png" alt=""></small></p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="col-sm-8 offset-sm-2">
+            <div class="row">
+                <div class="col-md-8 col-12 text-md-start text-center mt-4 px-3">
+                    <h4>Selected just for you</h4>
+                </div>
+                <div class="col-12 order-md-2  my-5">
+                    <div class="row">
+                        <div class="profile-container" id="profileContainer1">
+                            <div class="profile-images mx-sm-0 mx-3">
+                                <div class="img">
+                                    <figure>
+                                        <img style="height: 300px; width: 200px;" src="product-1.png" class="figure-img csr"
+                                            alt="...">
+                                        <h6> <a href="#" class="text-decoration-none text-dark">Back Pack</a></h6>
+                                        <figcaption class="figure-caption">$200.00</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="img">
+                                    <figure>
+                                        <img style="height: 300px; width: 200px;" src="product-2.png" class="figure-img csr"
+                                            alt="...">
+                                        <h6> <a href="#" class="text-decoration-none text-dark">Digital Watch</a></h6>
+                                        <figcaption class="figure-caption">$200.00</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="img">
+                                    <figure>
+                                        <img style="height: 300px; width: 200px;" src="product-3.png" class="figure-img csr"
+                                            alt="...">
+                                        <h6> <a href="#" class="text-decoration-none text-dark">Brown Bag</a></h6>
+                                        <figcaption class="figure-caption">$200.00</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="img">
+                                    <figure>
+                                        <img style="height: 300px; width: 200px;" src="product-4.png" class="figure-img csr"
+                                            alt="...">
+                                        <h6> <a href="#" class="text-decoration-none text-dark">Sunglasses</a></h6>
+                                        <figcaption class="figure-caption">$200.00</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 order-md-1 text-md-end text-center mt-md-4 mt-0">
+                    <button type="button" class="btn btn-outline-dark p-1 px-3">Show more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid my-5">
+        <div class="row">
+            <div class="text-center">
+                <h4>Why Should You Choose Us?</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid my-5">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <figure class="figure text-md-start text-center">
+                            <img src="pay.png"
+                                class="figure-img img-fluid p-3 bg-body-tertiary border-bottom border-primary border-3"
+                                alt="...">
+                            <h6>Easy Payment</h6>
+                            <figcaption class="figure-caption">Fat new smallness few supposing</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <figure class="figure text-md-start text-center">
+                            <img src="shield.png"
+                                class="figure-img img-fluid bg-body-tertiary p-3 border-bottom border-primary border-3"
+                                alt="...">
+                            <h6>Money Back Guarantee</h6>
+                            <figcaption class="figure-caption">Fat new smallness few supposing</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <figure class="figure text-md-start text-center">
+                            <img src="quality.png"
+                                class="figure-img img-fluid bg-body-tertiary p-3 border-bottom border-primary border-3"
+                                alt="...">
+                            <h6>Finest Quality</h6>
+                            <figcaption class="figure-caption">Fat new smallness few supposing</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-3 col-6 ">
+                        <figure class="figure text-md-start text-center">
+                            <img src="truck.png"
+                                class="figure-img img-fluid p-3 bg-body-tertiary border-bottom border-primary border-3"
+                                alt="...">
+                            <h6>Free Shipping</h6>
+                            <figcaption class="figure-caption">Fat new smallness few supposing</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="col-sm-8 offset-sm-2">
+            <div class="row">
+                <div class="col-md-8 col-12 text-md-start text-center mt-4 px-3">
+                    <h4>New Arrivals</h4>
+                </div>
+                <div class="col-12 order-md-2  my-5">
+                    <div class="row">
+                        <div class="profile-container" id="profileContainer2">
+                            <div class="profile-images mx-sm-0 mx-3">
+                                <div class="img">
+                                    <figure>
+                                        <img style="height: 300px; width: 200px;" src="New-product-1.png" class="figure-img csr"
+                                            alt="...">
+                                        <h6><a href="#" class="text-decoration-none text-dark">Louis Vuitton Bag</a></h6>
+                                        <figcaption class="figure-caption">$200.00</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="img">
+                                    <figure>
+                                        <img style="height: 300px; width: 200px;" src="new-product-2.png" class="figure-img csr"
+                                            alt="...">
+                                        <h6><a href="#" class="text-decoration-none text-dark">Louis Vuitton Bag</a></h6>
+                                        <figcaption class="figure-caption">$200.00</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="img">
+                                    <figure>
+                                        <img style="height: 300px; width: 200px;" src="new-product-3.png" class="figure-img csr"
+                                            alt="...">
+                                        <h6><a href="#" class="text-decoration-none text-dark">Louis Vuitton Bag</a></h6>
+                                        <figcaption class="figure-caption">$200.00</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="img">
+                                    <figure>
+                                        <img style="height: 300px; width: 200px;" src="new-product-4.png" class="figure-img csr"
+                                            alt="...">
+                                        <h6><a href="#" class="text-decoration-none text-dark">Louis Vuitton Bag</a></h6>
+                                        <figcaption class="figure-caption">$200.00</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 order-md-1 text-md-end text-center mt-md-4 mt-0">
+                    <button type="button" class="btn btn-outline-dark p-1 px-3">Show more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid my-5">
+        <div class="row">
+            <div class="col p-0" id="dnimg">
+                <img style="width: 100%; min-height: 400px;" class="d-md-block d-none" id="dnimg"
+                    src="New-Collection--img.png" alt="">
+                <img style="width: 100%; min-height: 100%; position: relative;" class="d-md-none d-block"
+                    src="crop2.png" alt="">
+                <div class="row m-3">
+                    <div class="col-md-10 col-lg-9 col-xl-8 col-sm-10 col-11 " id="dncon">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-8 col-sm-8 col-12 my-md-5 my-sm-4 my-0 px-5">
+                                <div class="h4-md h5 m-0 mt-sm-auto mt-2">NEW COLLECTIONS</div>
+                                <p class="small"> <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                                        eligendi rem eveniet autem ipsum.</small></p>
+
+                            </div>
+                            <div
+                                class=" col-sm-4 text-md-start text-sm-end col-12 my-sm-4 my-0 mx-sm-0 px-sm-3 px-5  align-self-center ">
+                                <button type="button" class="btn btn-primary p-1 p-md-2 ">Show more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid my-5">
+        <div class="row my-md-5">
+            <div class="col-md-8 offset-md-2">
+                <div class="row p-md-0 px-3">
+                    <div class="col-xl-2 col-md-3 col-sm-4 col-6 p-0 my-5 my-md-3">
+                        <div class="text-sm-center">
+                            <img src="logo1.png" class="rounded" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-4 d-sm-block d-none p-0 my-5 my-md-3">
+                        <div class="text-sm-center">
+                            <img src="logo2.png" class="rounded" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-sm-4 col-6 p-0 my-5 my-md-3">
+                        <div class="text-center">
+                            <img src="logo3.png" class="rounded" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3 d-md-block d-none p-0 my-3">
+                        <div class="text-center ">
+                            <img src="logo4.png" class="rounded" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-xl-2 d-xl-block d-none p-0 my-3">
+                        <div class="text-center ">
+                            <img src="logo5.png" class="rounded" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-xl-2 d-xl-block d-none p-0 my-3">
+                        <div class="text-center">
+                            <img src="logo6.png" class="rounded" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col p-0">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-sm-7 mt-5 px-4">
+                        <div class="row">
+                            <div class="col">
+                                <div class="h6"><strong>About</strong></div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col">
+                                <p class="small" style="font-size: x-small;">We diminution preference throughly if. Joy
+                                    deal pain view much her time. Led young gay would now state. Pronounce we attention
+                                    admitting.</p>
+                            </div>
+                        </div>
+                        <div class="row my-2">
+                            <div class="col-2">
+                                <div class="text-center ">
+                                    <i class="fab fa-facebook"></i>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="text-center">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="text-center">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="text-center">
+                                    <i class="fab fa-youtube"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 offset-xl-1 col-lg-3 mt-5 col-sm-5 px-4">
+                        <div class="row">
+                            <div class="col ">
+                                <div class="h6 small"><strong>Shopping online</strong></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mt-2">
+                                <p class="my-0"><a href="" class="small text-dark text-decoration-none"><small>Order
+                                            status</small></a></p>
+                                <p class="my-0"><a href="" class="small text-dark text-decoration-none"><small>Shipping
+                                            & Delivery</small></a></p>
+                                <p class="my-0"><a href=""
+                                        class="small text-dark text-decoration-none"><small>Returns</small></a></p>
+                                <p class="my-0"><a href="" class="small text-dark text-decoration-none"><small>Payment
+                                            Options</small></a></p>
+                                <p class="my-0"><a href="" class="small text-dark text-decoration-none"><small>Contact
+                                            Us</small></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3  px-xl-5 col-lg-3 col-sm-7 mt-5 px-4">
+                        <div class="row ">
+                            <div class="col ">
+                                <div class="h6 small"><strong>Information</strong></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mt-2">
+                                <p class="my-0"><a href="" class="small text-dark text-decoration-none"><small>Gift
+                                            card</small></a></p>
+                                <p class="my-0"><a href="" class="small text-dark text-decoration-none"><small>Find a
+                                            store</small></a></p>
+                                <p class="my-0"><a href=""
+                                        class="small text-dark text-decoration-none"><small>Newsletter</small></a></p>
+                                <p class="my-0"><a href="" class="small text-dark text-decoration-none"><small>Become a
+                                            member</small></a></p>
+                                <p class="my-0"><a href="" class="small text-dark text-decoration-none"><small>Site
+                                            feedback</small></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-sm-5 mt-5 px-4">
+                        <div class="row ">
+                            <div class="col ">
+                                <div class="h6 small"><strong>Contact</strong></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mt-2">
+                                <p class="my-0"><a href=""
+                                        class="small text-dark text-decoration-none"><small>Store@mail.com</small></a>
+                                </p>
+                                <p class="my-0"><a href="" class="small text-dark text-decoration-none"><small>Tel:
+                                            +923086272910</small></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-sm-8 offset-sm-2 p-0">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text text-center">
+                <p class="small">&copy;Copyrights.All Right Reserved</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</html>

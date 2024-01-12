@@ -1,0 +1,145 @@
+.hower {
+    position: relative;
+    /* left: 45px;
+    top: 20px; */
+    display: inline-block;
+    color: #0e0e0e;
+    text-decoration: none;
+    cursor: pointer;
+}
+.hower::after{
+    content: "";
+    position: absolute;
+    bottom:-4px;
+    left: -10px;
+    height: 30px;
+    width: 30%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.5);
+    transition: all 0.3s ease;
+}
+.hower:hover::after{
+    width: 90%;
+    border-radius: 20px;
+}
+.profile-container {
+    width: 100%;
+    overflow: hidden;
+}
+.profile-images {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+.img{
+    margin-right:60px;
+}
+#dnimg{
+    position: relative;
+    z-index: 0;
+}
+#dncon{
+    border-top-left-radius: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 1;
+}
+i{
+    cursor: pointer;
+}
+#searchBar{
+    display: none;
+}
+.underline {
+    position: relative;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+.underline::after {
+    content: '';
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color:  rgba(0, 0, 255, 0.5);
+    transition: width 0.3s ease;
+} 
+.underline:hover::after {
+    width: 90%;
+}
+#color {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    display: inline-block;
+    color: #0e0e0e;
+    text-decoration: none;
+    cursor: pointer;
+}
+#color::after{
+    content: "";
+    position: absolute;
+    bottom:10px;
+    left: -10px;
+    height: 33px;
+    width: 30%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.5);
+    transition: all 0.3s ease;
+}
+#color:hover::after{
+    width: 90%;
+    border-radius: 20px;
+}
+#topborder{
+    border-top-right-radius: 50px;
+    background-color: #ffff;
+}
+#pre{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+}
+#next{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+}
+#nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pic-height{
+    height: 590px;
+}
+.pic-height2{
+    height: 580px;
+}
+#pre2{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: blue;
+    position: relative;
+}
+#next2{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: blue;
+    position: relative;
+}
+.csr{
+    cursor: pointer;
+}
